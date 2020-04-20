@@ -11,12 +11,21 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="ViewPager展示"
-       android:layout_gravity="center"/>
+       android:layout_gravity="center"
+       android:onClick="onClick"/>
    <Button
        android:id="@+id/custom_view_show"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="自定义展示"
-       android:layout_gravity="center"/>
+       android:text="自定义View组合"
+       android:layout_gravity="center"
+       android:onClick="onClick"/>
 
+   <Button
+       android:id="@+id/foreground_view_show"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="自定义View蒙版展示"
+       android:layout_gravity="center"
+       android:onClick="onClick"/>
 </LinearLayout>

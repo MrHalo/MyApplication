@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ViewPagerActivity" />
-        <activity android:name=".CustomView.CustomActivity"></activity>
+        <activity android:name=".CustomView.CustomActivity" />
+        <activity android:name=".CustomView.ForegroundActivity"></activity>
     </application>
 
 </manifest>
